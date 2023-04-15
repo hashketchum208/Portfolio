@@ -1,21 +1,14 @@
 import React from "react";
+import DEVresume from "../DEVresume.png"
 
 export default function Contact() {
   return (
     <div>
-      <h1>Contact info</h1>
+      <h1>Resume</h1>
       <h3>
-        Please feel free to tell me what i can improve on and checkout some of
-        my resume
+       <img class="w-50 p-3" src={DEVresume} alt="resume"></img>
       </h3>
-      <input
-        type="email"
-        class="form-control"
-        id="exampleFormControlInput1"
-        placeholder="name@example.com"
-      ></input>
-      <textarea class="form-control" aria-label="With textarea"></textarea>
-      <button>Submit</button>
-    </div>
-  );
+        
+   </div>
+  )
 }

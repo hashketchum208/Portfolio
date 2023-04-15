@@ -9,7 +9,7 @@ export default function Blog() {
         I dont care, but some one online will.
       </h3>
       <textarea class="form-control" aria-label="With textarea"></textarea>
-      <button>Submit</button>
+      <button type="button" class="btn btn-success">Submit to a duel</button>
     </div>
   );
 }

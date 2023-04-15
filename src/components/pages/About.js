@@ -4,7 +4,7 @@ import javascript1 from "../javascript1.png";
 import mysql from "../mysql.png";
 import logo512 from "../logo512.png";
 import node from "../node.png";
-import apolloclient from "../apollo_client.png";
+import apolloClient from "../apollo_client.png";
 import Regex from "../Regex.jpg";
 import mongodb2 from "../mongodb2.png";
 
@@ -29,7 +29,7 @@ export default function About() {
         <img class="w-25 p-3" src={mysql} alt="sql"></img>
         <img class="w-25 p-3" src={logo512} alt="react"></img>
         <img class="w-25 p-3" src={node} alt="node"></img>
-        <img class="w-25 p-3" src={apolloclient} alt="apollo"></img>
+        <img class="w-25 p-3" src={apolloClient} alt="apollo"></img>
         <img class="w-25 p-3" src={Regex} alt="regex"></img>
         <img class="w-25 p-3" src={mongodb2} alt="mongodb2"></img>
       </div>
