@@ -1,7 +1,7 @@
 import React from "react";
 import DEVresume from "../DEVresume.png"
 
-export default function Contact() {
+export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
