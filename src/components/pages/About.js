@@ -18,7 +18,7 @@ export default function About() {
         Development. I have been spending the last 2 years fine tuning my skills
         in JavaScript, Node.js, Express.js, and React.js. My forte is backend.
         Im skilled in the usage of MySQL, Apollo, Insomnia, and TablePlus. I
-        currently live in Mccammon, Id with my wife and 2 children. In 5 years I
+        currently live in Mccammon, Idaho with my wife and 2 children. In 5 years I
         hope to be established in a backend engineering career, working my days
         away at home.
       </h3>
