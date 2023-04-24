@@ -5,13 +5,14 @@ export default function Home() {
     <div>
       <h1>Leo Pignanelli's Portfolio</h1>
       <h3>
-        What's better than owning your own home? Owning your own Home Page!! Who
-        needs a house when you can just program out in the street. Maybe a
-        passing Oracle will toss me a job.
+        What's better than owning your own home? 
+        Owning your own Home Page!! 
+        Who needs a house when you can just program out in the street. 
+        Maybe a passing Oracle will toss me a job.
       </h3>
       <br />
       <h1>
-        Class projects and 
+        Class projects and time wasters
       </h1>
       <div>
         <ul>
