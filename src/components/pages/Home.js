@@ -9,9 +9,6 @@ export default function Home() {
         needs a house when you can just program out in the street. Maybe a
         passing Oracle will toss me a job.
       </h3>
-
-        <a href="https://github.com/hashketchum208">GitHub stuff</a>
-        
     </div>
   );
 }

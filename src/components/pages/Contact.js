@@ -1,12 +1,11 @@
 import React from "react";
 
-export default function Blog() {
+export default function Contact() {
   return (
     <div>
-      <h1>Blah Blah Blog</h1>
+      <h1>Yell at me</h1>
       <h3>
         Complain, profess your love, tell it how it is, or beat around the bush.
-        I dont care, but some one online will.
       </h3>
       <textarea class="form-control" aria-label="With textarea"></textarea>
       <button type="button" class="btn btn-success">Submit to a duel</button>

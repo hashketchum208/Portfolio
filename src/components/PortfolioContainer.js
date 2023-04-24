@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
 export default function PortfolioContainer() {
@@ -17,8 +17,8 @@ export default function PortfolioContainer() {
     if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === "Blog") {
-      return <Blog />;
+    if (currentPage === "Contact") {
+      return <Contact />;
     }
     if (currentPage === "Resume") {
     return <Resume />;
@@ -34,7 +34,7 @@ export default function PortfolioContainer() {
       {renderPage()}
     <div>
     </div>
-    <Footer>© {new Date().getFullYear()}, Built with React</Footer>
+    <Footer />
     </div>
   );
   }
