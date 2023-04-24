@@ -11,15 +11,15 @@ export default function Home() {
       </h3>
       <br />
       <h1>
-        Projects
+        Class projects and 
       </h1>
       <div>
         <ul>
-          <a href="https://github.com/sifrult/streaming_locator">Project1</a>
+          <a href="https://github.com/sifrult/streaming_locator">Project1-Movie Finder</a>
           <br />
-          <a href="https://github.com/ValentaCodes/DiveIn">Project2</a>
+          <a href="https://github.com/ValentaCodes/DiveIn">Project2-Boat Rental App</a>
           <br />
-          <a href="https://github.com/Grey-pearson/we-believe-forum">Project3</a>
+          <a href="https://github.com/Grey-pearson/we-believe-forum">Project3-Paranormal Blog</a>
           <br />
           <a href="https://github.com/hashketchum208/Just_A_Thought">Social Network API</a>
           <br />
