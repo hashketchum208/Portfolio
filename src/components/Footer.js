@@ -4,7 +4,7 @@ function Footer() {
 
   return (
     <div>
-      <p>Copyright © {new Date().getFullYear()} <br></br> <a href="https://github.com/hashketchum208">GitHub</a> <a href="https://www.linkedin.com/in/leo-pignanelli-054bb2269/">linkedin</a></p>
+      <h4>Copyright © {new Date().getFullYear()} <a href="https://github.com/hashketchum208">GitHub</a> <a href="https://www.linkedin.com/in/leo-pignanelli-054bb2269/">linkedin</a></h4>
     </div>
   );
 }

@@ -33,7 +33,6 @@ export default function About() {
         <img class="w-25 p-3" src={Regex} alt="regex"></img>
         <img class="w-25 p-3" src={mongodb2} alt="mongodb2"></img>
       </div>
-
     </div>
   );
 }

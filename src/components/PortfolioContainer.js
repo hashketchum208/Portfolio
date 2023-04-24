@@ -21,13 +21,13 @@ export default function PortfolioContainer() {
       return <Contact />;
     }
     if (currentPage === "Resume") {
-    return <Resume />;
+      return <Resume />;
   };
 };
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="portfolio-container">
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}

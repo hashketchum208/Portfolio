@@ -7,9 +7,11 @@ export default function Resume() {
       <h1>Resume</h1>
       <h3>
        <img class="w-50 p-3" src={DEVresume} alt="resume"></img>
-       <a href="../DEV resume.pdf">Resume link</a>
       </h3>
-        
+      <h2>
+        <a href= "../DEVresume.png" attributes-list download>Resume link</a>
+      </h2>
+      
    </div>
   )
 }
