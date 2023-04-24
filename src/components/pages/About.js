@@ -12,6 +12,7 @@ export default function About() {
   return (
     <div>
       <h1>About Me</h1>
+    <br />
       <h3>
         Hi, My name is Leo Pignanelli, I am currently a student at the
         University of Utah's Professional Education Bootcamp for Full Stack Web
@@ -22,7 +23,7 @@ export default function About() {
         hope to be established in a backend engineering career, working my days
         away at home.
       </h3>
-      
+      <br />
       <div>
         <img class="w-25" src={BeFunkyPhoto2} alt="me"></img>
         <img class="w-25 p-3" src={javascript1} alt="1"></img>
