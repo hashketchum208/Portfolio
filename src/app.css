@@ -1,6 +1,7 @@
 body {
+  display: flex;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #ecfaff;
+  background-color: #e0f7ff;
 }
 
 h1 {
@@ -28,3 +29,9 @@ ul {
   display: grid;
   font-size: larger;
 }
+
+footer {
+  border-bottom: #2e2e2e;
+}
+
+

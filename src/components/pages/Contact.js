@@ -22,9 +22,9 @@ export default function Contact() {
       <h3>
         Complain, profess your love, tell it how it is, or beat around the bush.
       </h3>
-      <input type="email" class="form-email" id="email" aria-describedby="emailHelp" placeholder="Enter email"></input>
+      <input type="email" className="form-email" id="email" aria-describedby="emailHelp" placeholder="Enter email"></input>
       <textarea type="text" value={data} onChange={handleDataChange} class="form-control" aria-label="With textarea" placeholder="Yell at me"></textarea>
-      <button type="button" class="btn btn-success" onClick={() => localStorage.setItem('data', data)}> Submit to a duel</button>
+      <button type="submit" className="btn btn-success" onClick={() => localStorage.setItem('data', data)}> Submit to a duel</button>
       <br />
     </div>
   );

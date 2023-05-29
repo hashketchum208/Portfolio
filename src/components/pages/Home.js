@@ -1,4 +1,5 @@
 import React from "react";
+import gradBanner from "../gradBanner.png"
 
 export default function Home() {
   return (
@@ -6,13 +7,13 @@ export default function Home() {
       <h1>Leo Pignanelli's Portfolio</h1>
       <h3>
         What's better than owning your own home? 
-        Owning your own Home Page!! 
+        <strong>Owning your own Home Page!!</strong> 
         Who needs a house when you can just program out in the street. 
         Maybe a passing Oracle will toss me a job.
       </h3>
       <br />
       <h1>
-        Class projects and time wasters
+        Class Projects and Time Wasters
       </h1>
       <div>
         <ul>
@@ -31,6 +32,7 @@ export default function Home() {
         </ul>
       </div>
       <br />
+      <img class="w-25" src={gradBanner} alt="me"></img>
     </div>
   );
 }
