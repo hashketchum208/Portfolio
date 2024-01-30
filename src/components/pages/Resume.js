@@ -1,5 +1,4 @@
 import React from "react";
-import DEVresume from "../DEVresume.pdf"
 
 export default function Resume() {
 
@@ -17,7 +16,7 @@ export default function Resume() {
     <div>
       <h1>My Resume</h1>
       <h3>
-       <img src={DEVresume} alt="resume"></img>
+       
       </h3>
       <div>
         <button type="download" className="btn btn-warning" onClick={onButtonClick}>

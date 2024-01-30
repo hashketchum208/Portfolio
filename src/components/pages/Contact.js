@@ -22,9 +22,8 @@ export default function Contact() {
       <h3>
         Complain, profess your love, tell it how it is, or beat around the bush.
       </h3>
-      <input type="email" className="form-email" id="email" aria-describedby="emailHelp" placeholder="Enter email"></input>
       <textarea type="text" value={data} onChange={handleDataChange} class="form-control" aria-label="With textarea" placeholder="Yell at me"></textarea>
-      <button type="submit" className="btn btn-success" onClick={() => localStorage.setItem('data', data)}> Submit to a duel</button>
+      <a href="mailto:stockton801@gmail.com">Pig-Pi</a>
       <br />
     </div>
   );
